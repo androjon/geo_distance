@@ -102,7 +102,7 @@ def choose_geo():
                         
             locations_with_ads = sorted(locations_with_distance, 
                                         key = operator.itemgetter("avstånd"),
-                                        reverse = True)
+                                        reverse = False)
                 
             a, b = st.columns(2)
 
